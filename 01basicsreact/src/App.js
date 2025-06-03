@@ -1,11 +1,12 @@
 import React from 'react';
+import Youtube from "./Youtube";
 
 function App() {
   return (
-   <h1>
-    Classic React App
-   </h1>
+    <div>
+   <h1 style={{color: 'red'}}>Classic React App.</h1>
+   <Youtube />
+    </div>
   );
 }
-
 export default App;
